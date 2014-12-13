@@ -23,6 +23,4 @@ CFLAGS+= -I${.CURDIR}/../../ofed/include
 #CFLAGS+=-DICL_KERNEL_PROXY
 #CFLAGS+=-DCHELSIO_OFFLOAD
 
-MFILES=	kern/bus_if.m kern/device_if.m dev/iscsi/icl_conn_if.m
-
 .include <bsd.kmod.mk>
